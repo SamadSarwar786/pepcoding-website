@@ -1,0 +1,107 @@
+*{
+    scroll-behavior: smooth;
+}
+header {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: antiquewhite;
+    
+}
+
+header>h1 {
+    font-size: 2rem;
+    margin-left: 50px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 0.9rem;
+    margin-right: 1.7rem;
+}
+
+li {
+    list-style-type: none;
+    font-size: 1.5rem;
+    
+}
+ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+}
+ul li a:hover{
+    color: brown;
+
+}
+
+ul {
+    /* we give display property to ul beacause we have to target li which is children of ul */
+
+    display: flex;
+    justify-content: space-between;
+    width: 22rem;
+    align-items: center;
+    margin-right: 1.1rem;
+}
+
+nav {
+    display: flex;
+    vertical-align: middle;
+
+    /* padding-top: 10px; */
+    /*
+it will work but not recommended because if we have to move very far then it is very 
+*/
+
+    /* position: relative;
+top: 0.7rem; */
+
+}
+.showcase_img{
+    /* vw and vh viewport width and height , is adjust with size of screen */
+    width: 95vw;
+    margin: 1rem 1.7rem 1rem 0.9rem;
+
+}
+article{
+    display: flex;
+    margin-bottom: 1rem;
+}
+.container{
+    background-color: antiquewhite;
+    /* display: flex; */
+    /* not good above */
+
+    text-align: center;
+    margin-right: 1.7rem;
+    margin-left: 0.9rem;
+    padding: 1rem;
+   
+}
+p{
+    font-size: 1.5rem;
+}
+footer{
+    background-color: black;
+    color: goldenrod;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 4rem;
+    font-size: 1.5rem;
+    margin-left: 0.9rem;
+    margin-right: 1.7rem;
+
+}
+
+/* footer ul{
+    display: flex;
+
+}
+footer ul li a{
+    color: white;
+}
+footer ul li a:hover{
+    color: goldenrod;
+
+} */
